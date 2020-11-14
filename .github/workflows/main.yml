@@ -23,7 +23,7 @@ jobs:
           npm install
       - name: '运行 【中青看点自动阅读】'
         run: |
-          node Task/Youth_Read.js
+          node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ }}
           
