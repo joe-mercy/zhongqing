@@ -29,6 +29,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: 'Run zhongqing'
-        run: 
+        run: JavaScript YOUTH_READ.js
           echo Add other actions to build,
           echo test, and deploy your project.
