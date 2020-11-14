@@ -55,7 +55,7 @@ function AutoRead() {
             headers: {
             'User-Agent': 'KDApp/1.7.8 (iPhone; iOS 14.0; Scale/3.00)'
             },
-            body: articlebody
+            body: articlebody  
         };
         $.post(url, async(error, response, data) => {
            let readres = JSON.parse(data);
