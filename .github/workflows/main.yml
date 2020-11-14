@@ -29,7 +29,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: 'Run zhongqing'
-        run: JavaScript YOUTH_READ.js
+        run: JavaScript Youth_Read.js
         env:
             YOUTH_READ: ${{ secrets.YOUTH_READ }}
         
