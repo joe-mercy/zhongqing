@@ -6,7 +6,7 @@ name: CI
 # events but only for the main branch
 on:
 schedule:
-    - cron: '*/10 * * * * '
+ cron: '*/10 * * * * '
   watch:
     types: [started]
   
