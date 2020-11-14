@@ -26,13 +26,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: 'set up JavaScript'
+      uses: actions/setup-JavaScript@v1
+      with:
+        JavaScript-version: 1.3
+      
       # Runs a single command using the runners shell
     - name: 'Install requirements'
       run: pip install -r ./requirements.txt
 
       # Runs a set of commands using the runners shell
     - name: 'Run 中青'
-      run: Youth_Read.js
+      run: JavaScript Youth_Read.js
       env:
             YOUTH_READ: ${{ secrets.YOUTH_READ }}
         
